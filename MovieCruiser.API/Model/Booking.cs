@@ -15,19 +15,9 @@
         public int CustomerId { get; set; }
 
         ///<Summary>
-        /// CustomerDetail
-        ///</Summary>
-        public UserModel CustomerDetail { get; set; }
-
-        ///<Summary>
         /// EmployeeId
         ///</Summary>
         public int EmployeeId { get; set; }
-
-        ///<Summary>
-        /// EmployeeDetail
-        ///</Summary>
-        public UserModel EmployeeDetail { get; set; }
 
         ///<Summary>
         /// PickupLocation

@@ -52,7 +52,7 @@
         ///<Summary>
         /// RoleId
         ///</Summary>
-        public bool RoleId { get; set; }
+        public int RoleId { get; set; }
 
         ///<Summary>
         /// VehicleNumber

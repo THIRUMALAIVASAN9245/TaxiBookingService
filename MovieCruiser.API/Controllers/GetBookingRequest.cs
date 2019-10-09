@@ -4,7 +4,7 @@
     using MediatR;
     using System.Collections.Generic;
 
-    public class GetBookingRequest : IRequest<List<Model.Booking>>
+    public class GetBookingRequest : IRequest<List<Model.BookingResponse>>
     {
         public BookingRequest bookingRequest { get; set; }
 
