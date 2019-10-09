@@ -15,10 +15,10 @@
             CreateMissingTypeMaps = true;
 
             CreateMap<Model.Booking, Entities.Booking>();
+            CreateMap<Model.UserModel, Entities.UserDetail>();
 
-            CreateMap<Entities.Booking, Model.Booking>()
-                .ForMember(model => model.CustomerDetail, option => option.Ignore())
-                .ForMember(model => model.EmployeeDetail, option => option.Ignore());
+            CreateMap<Entities.Booking, Model.Booking>();
+            CreateMap<Entities.UserDetail, Model.UserModel>();
         }
     }
 }

@@ -63,7 +63,7 @@
         /// <returns>list of Ride</returns>
         [HttpPost]
         [Route("GetBooking")]
-        [ProducesResponseType(200, Type = typeof(Booking[]))]
+        [ProducesResponseType(200, Type = typeof(BookingResponse[]))]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         public async Task<IActionResult> GetBooking(BookingRequest bookingRequest)
